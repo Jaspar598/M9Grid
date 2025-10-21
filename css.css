@@ -1,0 +1,69 @@
+.nav {
+  background-color: black;
+}
+
+main {
+  display: flex;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav li {
+  color: white;
+  padding: 1em;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+article {
+  flex-basis: 60%;
+  margin: 1.5em 2.52525% 0 2.0202%;
+}
+
+aside {
+  width: 40%;
+  padding: 2.0202%;
+  max-width: 200px;
+  min-height: 180px;
+  background-color: #ffebc6;
+  margin: 1.5em 2.0202%;
+  float: right;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+}
+
+header h1 h2 {
+  text-align: center;
+}
+
+footer {
+  background: pink;
+}
+
+#galGrid {
+  display: grid;
+  grid-template-columns: repeat(auto fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px;
+  align-items: stretch;
+}
+
+#galGrid img {
+  border: 1px solid gray;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+}
